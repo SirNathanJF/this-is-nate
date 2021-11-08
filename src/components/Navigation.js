@@ -4,6 +4,9 @@ import React from 'react';
 function Navigation({ currentPage, handlePageChange }) {
   return (
     <ul className="nav navigation">
+      <li className="title">
+        <h2>Nathan Flessner</h2>
+      </li>
       <li className="nav-item">
         <a
           href="#home"
