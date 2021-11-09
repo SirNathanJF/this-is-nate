@@ -50,16 +50,16 @@ export default function Home() {
       <ul>
         <li>
           <i>
-            <b className="purple">Javascript</b>
+            <b className="purple"> Javascript</b>
           </i>
         </li>
       </ul>
-      <p>My field of Interest's are building new</p>
+      <p>My fields of interest are building new</p>
       <ul>
         <li>
           <i>
-            <b className="purple">Web Technologies and Products</b>
-            and I enjoy working as a backend developer very much!
+            <b className="purple">Web Technologies and Products </b>
+            and working as a backend developer!
           </i>
         </li>
       </ul>

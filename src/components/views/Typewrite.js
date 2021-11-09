@@ -9,7 +9,7 @@ function Typewrite() {
           "Full-Stack Developer",
           "Github Guru",
           "React Developer",
-          "C++ Beginner",
+          "NodeJS Ninja",
         ],
         autoStart: true,
         loop: true,
