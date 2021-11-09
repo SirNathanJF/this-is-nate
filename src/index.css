@@ -1,10 +1,63 @@
+
+header {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  padding-right: 2vw;
+  display: inline-flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.name {
+  color: #07020D;
+}
+
+body {
+  background-image: url('/src/Assets/mainbackground.jpg');
+  display: flex;
+  height: 100vh;
+}
+
+.heading-name {
+  padding-left: 2vw;
+  text-align: left;
+  justify-content: flex-start;
+}
+
+.home-text {
+  padding-left: 2vw;
+  text-align: left;
+  justify-content: flex-start;
+}
+.home-body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+h1 {
+  color:#07020D;
+}
+
+.home-text {
+  color:#07020D;
+}
+
 .nav {
-  background-color: #068D9D ;
+  display: inline-flex;
 }
 
 .nav a {
+  font-size: larger;
   color: black;
-  justify-content: flex-end;
+  justify-content: end;
+  align-content: flex-end;
 }
 
 body {
@@ -19,4 +72,23 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.wave {
+  animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.5s;        /* Change to speed up or slow down */
+  animation-iteration-count: infinite;  /* Never stop waving :) */
+  transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+    0% { transform: rotate( 0.0deg) }
+   10% { transform: rotate(20.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+   20% { transform: rotate(-12.0deg) }
+   30% { transform: rotate(20.0deg) }
+   40% { transform: rotate(-8.0deg) }
+   50% { transform: rotate(15.0deg) }
+   60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+  100% { transform: rotate( 0.0deg) }
 }

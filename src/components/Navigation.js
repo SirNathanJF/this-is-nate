@@ -3,17 +3,19 @@ import React from 'react';
 // object destructure the function so we can pass in our specific props
 function Navigation({ currentPage, handlePageChange }) {
   return (
+    <header>
+      <h2 className='name'>Nathan Flessner</h2>
+    <nav>
     <ul className="nav navigation">
-      <li className="title">
-        <h2>Nathan Flessner</h2>
-      </li>
-      <li className="nav-item">
+    <li className="nav-item">
+
         <a
           href="#home"
           onClick={() => handlePageChange('Home')}
           // react requries use of the ternary operator for an if/else statement, where we can check which page is active and set bootstraps active link class, or to the default if that page is not active. This follows for all links down below. 
           className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
         >
+        <i className="fas fa-home"></i>
           Home
         </a>
       </li>
@@ -23,6 +25,7 @@ function Navigation({ currentPage, handlePageChange }) {
           onClick={() => handlePageChange('About')}
           className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
         >
+        <i className="fas fa-user"></i>
           About
         </a>
       </li>
@@ -32,6 +35,7 @@ function Navigation({ currentPage, handlePageChange }) {
           onClick={() => handlePageChange('Portfolio')}
           className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
         >
+        <i className="fas fa-file-code"></i>
           Portfolio
         </a>
       </li>
@@ -41,10 +45,13 @@ function Navigation({ currentPage, handlePageChange }) {
           onClick={() => handlePageChange('Contact')}
           className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
         >
+        <i className="fas fa-mobile"></i>
           Contact
         </a>
       </li>
     </ul>
+    </nav>
+    </header>
   );
 }
 
