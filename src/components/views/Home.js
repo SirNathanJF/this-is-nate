@@ -7,7 +7,7 @@ export default function Home() {
     <section className='home-body'>
       <Container fluid className='home-content'>
         <Row>
-          <Col md={10} className='home-header'>
+          <Col md={15} className='home-header'>
             <h1 className="home-text">
               Hi there! <span className='wave'>👋🏻</span>
             </h1>

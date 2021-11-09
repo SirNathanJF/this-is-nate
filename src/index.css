@@ -1,11 +1,13 @@
 
 header {
+  position: fixed;
   width: 100vw;
   display: flex;
   justify-content: space-between;
 }
 
 nav {
+
   padding-right: 2vw;
   display: inline-flex;
   justify-content: flex-end;
