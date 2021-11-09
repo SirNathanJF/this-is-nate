@@ -1,22 +1,22 @@
-import React, { useState } from 'react';
-import Navigation from './Navigation';
-import Home from './views/Home';
-import About from './views/About';
-import Portfolio from './views/Portfolio';
-import Contact from './views/Contact';
+import React, { useState } from "react";
+import Navigation from "./Navigation";
+import Home from "./views/Home";
+import About from "./views/About";
+import Portfolio from "./views/Portfolio";
+import Contact from "./views/Contact";
 
 export default function Main() {
-  const [currentPage, setCurrentPage] = useState('Home');
+  const [currentPage, setCurrentPage] = useState("Home");
 
-  // Check to see what page is current, and reader specific component based on which page is current. 
+  // Check to see what page is current, and reader specific component based on which page is current.
   const renderPage = () => {
-    if (currentPage === 'Home') {
+    if (currentPage === "Home") {
       return <Home />;
     }
-    if (currentPage === 'About') {
+    if (currentPage === "About") {
       return <About />;
     }
-    if (currentPage === 'Portfolio') {
+    if (currentPage === "Portfolio") {
       return <Portfolio />;
     }
     return <Contact />;
@@ -25,8 +25,11 @@ export default function Main() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div>
-      <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
+    <div className="page">
+      <Navigation
+        currentPage={currentPage}
+        handlePageChange={handlePageChange}
+      />
       {/* Call our previously defined function for page rendering */}
       {renderPage()}
     </div>
