@@ -1,6 +1,8 @@
 import React from 'react';
 import { Container, Row, Col } from "react-bootstrap";
 import Typewrite from './Typewrite'
+import headshot from "../../Assets/headshot.jpg"
+import coder from '../../Assets/coder.svg'
 
 export default function Home() {
   return (
@@ -22,7 +24,11 @@ export default function Home() {
               </div>
           </Col>
         </Row>
+
       </Container>
+      <Col md={5} style={{ paddingBottom: 20 }}>
+              <img src={coder} alt="coder at desk" className="img-fluid"/>
+            </Col>
     </section>
   )
 }
