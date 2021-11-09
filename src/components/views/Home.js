@@ -12,9 +12,9 @@ export default function Home() {
       <div className="hero">
         {/* Hero content */}
         <div className="hero-content">
-          <h1 className="home-text">
+          <h2 className="home-text">
             Hi there! <span className="wave">👋🏻</span>
-          </h1>
+          </h2>
 
           <h1 className="heading-name">
             I'm <strong className="main-name">Nathan Flessner</strong>
