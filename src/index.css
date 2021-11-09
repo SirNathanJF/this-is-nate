@@ -40,14 +40,6 @@ body {
   text-align: left;
   justify-content: flex-start;
 }
-.home-body {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  align-items: center;
-}
 
 h1 {
   color:#07020D;
@@ -75,6 +67,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  width: 100%;
 }
 
 code {
@@ -117,4 +113,41 @@ code {
 .myAvtar {
   justify-content: center !important;
   padding-top: 9em !important;
+}
+
+.page {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.home {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px 100px;
+  width: 100%;
+}
+
+.hero {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  min-height: calc(100vh - 80px);
+  width: 100%;
+}
+
+.hero-content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-width: 480px;
+  padding: 0 10px 0 0;
+  text-align: center;
+}
+
+.hero img {
+  height: 400px;
+  padding: 0 0 10px 0;
 }
