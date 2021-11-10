@@ -5,6 +5,9 @@ header {
   display: flex;
   justify-content: space-between;
 }
+h2 name {
+  padding-left: 10px;
+}
 
 nav {
 
@@ -21,6 +24,7 @@ nav {
 
 .name {
   color: #07020D;
+  padding-left: 2vw;
 }
 
 body {
