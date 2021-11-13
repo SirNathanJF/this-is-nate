@@ -4,6 +4,8 @@ import Home from "./views/Home";
 import About from "./views/About";
 import Portfolio from "./views/Portfolio";
 import Contact from "./views/Contact";
+import Footer from "./views/Footer"
+
 
 export default function Main() {
   const [currentPage, setCurrentPage] = useState("Home");
@@ -31,7 +33,8 @@ export default function Main() {
         handlePageChange={handlePageChange}
       />
       {/* Call our previously defined function for page rendering */}
-      {renderPage()}
+      <div className="home-page">{renderPage()}</div>
+      <Footer />
     </div>
   );
 }

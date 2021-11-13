@@ -155,3 +155,21 @@ code {
   height: 400px;
   padding: 0 0 10px 0;
 }
+
+footer {
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+footer ul {
+  text-decoration: none; justify-content: space-between;
+}
+
+.social-icons {
+  list-style-type: none;
+  display: inline-flex;
+  justify-content: space-between;
+  padding-right: .5vw;
+  padding-left: .5vw;
+  color: #07020D;
+}
