@@ -49,10 +49,19 @@ function Navigation({ currentPage, handlePageChange }) {
           Contact
         </a>
       </li>
+      <li className="nav-item">
+        <a 
+          className="nav-link"
+          href="https://drive.google.com/file/d/1Av5ugd107ZcQdADC0Jh7jf3MvcEtM5G67aXuvJQ0ZSk/view?usp=sharing"
+          target="_blank"
+          rel="noreferrer">
+          <i className="fas fa-file-user"></i>
+          Resume
+        </a>
+      </li>
     </ul>
     </nav>
     </header>
   );
 }
-
 export default Navigation;
