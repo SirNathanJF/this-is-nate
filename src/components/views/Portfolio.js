@@ -15,7 +15,7 @@ export default function Portfolio() {
         <h1 className="project-heading">
           My Recent <strong>Works </strong>
         </h1>
-        <p style={{ color: "white" }}>
+        <p style={{ color: "#07020D" }}>
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
