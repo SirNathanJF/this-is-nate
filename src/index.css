@@ -63,6 +63,13 @@ h1 {
   justify-content: end;
   align-content: flex-end;
 }
+.nav-link:active .nav-link:focus {
+  color: #EBF5EE !important;
+}
+
+.nav-link:hover {
+  color: #EBF5EE !important;
+}
 
 body {
   margin: 0;
@@ -174,4 +181,40 @@ footer ul {
   padding-right: .5vw;
   padding-left: .5vw;
   color: #07020D;
+}
+
+.quote-card-view {
+  border: none !important;
+  color: #07020D !important;
+  background-color: transparent !important;
+}
+
+.blockquote-footer {
+  color: #1446A0;
+}
+
+.tech-icons:hover {
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  border: 2.2px solid #1446A0 !important;
+}
+
+.tech-icons {
+  font-size: 4.5em !important;
+  margin: 15px !important;
+  padding: 10px !important;
+  opacity: 0.93 !important;
+  border: 1.7px solid  #068D9D !important;
+  vertical-align: middle !important;
+  text-align: center !important;
+  border-radius: 5px !important;
+  display: table !important;
+  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+  overflow: hidden !important;
+  transition: all 0.4s ease 0s !important;
+}
+
+.tech-icon-images {
+  padding: 20px !important;
+  line-height: 1.6 !important;
 }
