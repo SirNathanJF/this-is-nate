@@ -46,7 +46,7 @@ export default function About() {
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-            This is who <strong className="purple">I am</strong>
+            This is who <strong>I am</strong>
             </h1>
             <Card className="quote-card-view">
               <Card.Body>
@@ -88,7 +88,7 @@ export default function About() {
           </Col>
         </Row>
         <h2 className="project-heading">
-          Professional <strong className="purple">Skillset </strong>
+          Professional <strong>Skillset </strong>
         </h2>
           <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
             <Col xs={4} md={2} className="tech-icons">
@@ -109,7 +109,7 @@ export default function About() {
           </Row>
 
         <h2 className="project-heading">
-          <strong className="purple">Tools</strong> I use
+          <strong>Tools</strong> I use
         </h2>
         <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
           <Col xs={4} md={2} className="tech-icons">
@@ -130,7 +130,7 @@ export default function About() {
         </Row>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
       <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
-        Days I <strong className="purple">Code</strong>
+        Days I <strong>Code</strong>
       </h1>
       <GitHubCalendar
         username="SirNathanJF"
@@ -146,71 +146,3 @@ export default function About() {
       </div>
   )
 }
-
-
-// {/* Picture of me */}
-//       <img src={Headshot} className="img-fluid" alt="avatar" />
-//       {/* Introduction | header */}
-//       <h2 style={{ fontSize: "2.6em" }}>
-//         LET ME <span className="purple">INTRODUCE</span> MYSELF
-//       </h2>
-
-//       {/* Introduction | description */}
-//       <p>
-//         I fell in love with programming and I have driven myself to learn as much
-//         as possible.
-//       </p>
-//       <p>I am fluent in:</p>
-//       <ul>
-//         <li>
-//           <i>
-//             <b className="purple"> Javascript</b>
-//           </i>
-//         </li>
-//       </ul>
-//       <p><br></br>My fields of interest are:</p>
-//       <ul>
-//         <li>
-//           <i>
-//             <b className="purple">Building Web Technologies and Products </b>
-//           </i>
-//         </li>
-//         <li>
-//           <i>
-//             <b>
-//               Back-end Development
-//             </b>
-//           </i>
-//         </li>
-//       </ul>
-//       <p><br></br>
-//         Whenever possible, I also apply my passion for developing products with
-//       </p>
-//       <ul>
-//         <li>
-//           <b className="purple">Node.js</b>
-//         </li>
-//         <li>
-//           <i>
-//             <b className="purple">Modern Javascript Library and Frameworks</b>
-//           </i>
-//         </li>
-//       </ul>
-//       <p>like</p>
-//       <ul>
-//         <li>
-//           <i>
-//             <b className="purple">React.js</b>
-//           </i>
-//         </li>
-//         <li>
-//           <i>
-//             <b className="purple">MySQL</b>
-//           </i>
-//         </li>
-//         <li>
-//           <i>
-//             <b className="purple">NoSQL</b>
-//           </i>
-//         </li>
-//       </ul>
