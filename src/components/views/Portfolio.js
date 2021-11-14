@@ -62,7 +62,7 @@ export default function Portfolio() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Quiz}
-              isBlog={false}
+              isProject={true}
               title="Coding Quiz"
               description="A coding quiz fueled by Javascript. Questions can be answered about basic coding knowledge, and hiscores saved."
               link="https://sirnathanjf.github.io/Week4HW-CodeQuiz/"

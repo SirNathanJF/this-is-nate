@@ -61,7 +61,7 @@ export default function About() {
                   </p>
                   <ul>
                     <li className="about-activity">
-                      <ImPointRight /> Playing Games
+                      <ImPointRight /> Playing Video Games
                     </li>
                     <li className="about-activity">
                       <ImPointRight /> Any outdoor activity, especially hiking and rock climbing.
