@@ -4,6 +4,7 @@ import {
   AiFillGithub,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { AiTwotoneMail } from "react-icons/ai"
 
 function Footer() {
   let date = new Date();
@@ -22,7 +23,7 @@ function Footer() {
             <li className="social-icons">
               <a
                 href="https://github.com/SirNathanJF"
-                style={{ color: "white" }}
+                style={{ color: "black" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
@@ -32,11 +33,21 @@ function Footer() {
             <li className="social-icons">
               <a
                 href="https://www.linkedin.com/in/nathan-flessner/"
-                style={{ color: "white" }}
+                style={{ color: "black" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
                 <FaLinkedinIn />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="mailto:nathanflessner@gmail.com"
+                style={{ color: "black" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <AiTwotoneMail />
               </a>
             </li>
           </ul>
