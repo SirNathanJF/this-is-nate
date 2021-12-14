@@ -25,7 +25,7 @@ export default function Portfolio() {
               isProject={true}
               title="Fara"
               description="This is a solo MERN stack application that allows a user to register an account, login, and save pins of locations they have been while writing a review. Users can see other user's pins."
-              link="https://sirnathanjf.github.io/Week4HW-CodeQuiz/"
+              link="https://fara-travel.herokuapp.com/"
             />
           </Col>
 
