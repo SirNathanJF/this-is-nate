@@ -2,11 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCard";
 
-import Scrypts from "../../Assets/scrypts.PNG"
-import Trip from "../../Assets/National_Parks.PNG"
-import TripleX from "../../Assets/ScreenshotTripleX.PNG"
-import Weather from "../../Assets/weather_screenshot.PNG"
-import Quiz from "../../Assets/hw_quiz_example.PNG"
+import Scrypts from "../../Assets/scrypts.PNG";
+import Trip from "../../Assets/National_Parks.PNG";
+import TripleX from "../../Assets/ScreenshotTripleX.PNG";
+import Weather from "../../Assets/weather_screenshot.PNG";
+import Fara from "../../Assets/FaraVisualExample.png";
 
 export default function Portfolio() {
   return (
@@ -19,6 +19,16 @@ export default function Portfolio() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Fara}
+              isProject={true}
+              title="Fara"
+              description="This is a solo MERN stack application that allows a user to register an account, login, and save pins of locations they have been while writing a review. Users can see other user's pins."
+              link="https://sirnathanjf.github.io/Week4HW-CodeQuiz/"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Scrypts}
@@ -58,20 +68,8 @@ export default function Portfolio() {
               link="https://sirnathanjf.github.io/Weather-Dashboard/"
             />
           </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={Quiz}
-              isProject={true}
-              title="Coding Quiz"
-              description="A coding quiz fueled by Javascript. Questions can be answered about basic coding knowledge, and hiscores saved."
-              link="https://sirnathanjf.github.io/Week4HW-CodeQuiz/"
-            />
-          </Col>
         </Row>
       </Container>
     </Container>
-
-
-  )
+  );
 }

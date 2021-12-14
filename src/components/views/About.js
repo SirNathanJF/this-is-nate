@@ -18,7 +18,7 @@ import {
 } from "react-icons/di";
 import GitHubCalendar from "react-github-calendar";
 
-const colourTheme = {
+const colourTheme = { 
   background: "transparent",
   text: "#ffffff",
   grade4: "#8400b8",
