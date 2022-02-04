@@ -39,7 +39,7 @@ function Navigation({ currentPage, handlePageChange }) {
           Portfolio
         </a>
       </li>
-      <li className="nav-item">
+      {/* <li className="nav-item">
         <a
           href="#contact"
           onClick={() => handlePageChange('Contact')}
@@ -48,7 +48,7 @@ function Navigation({ currentPage, handlePageChange }) {
         <i className="fas fa-mobile"></i>
           Contact
         </a>
-      </li>
+      </li> */}
       <li className="nav-item">
         <a 
           className="nav-link"
