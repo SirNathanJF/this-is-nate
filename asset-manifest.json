@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/this-is-nate/static/css/main.8825a190.chunk.css",
-    "main.js": "/this-is-nate/static/js/main.2594b57e.chunk.js",
-    "main.js.map": "/this-is-nate/static/js/main.2594b57e.chunk.js.map",
+    "main.css": "/this-is-nate/static/css/main.7a3bbd84.chunk.css",
+    "main.js": "/this-is-nate/static/js/main.c5e4b4f5.chunk.js",
+    "main.js.map": "/this-is-nate/static/js/main.c5e4b4f5.chunk.js.map",
     "runtime-main.js": "/this-is-nate/static/js/runtime-main.fe1f0ebb.js",
     "runtime-main.js.map": "/this-is-nate/static/js/runtime-main.fe1f0ebb.js.map",
     "static/css/2.383c0125.chunk.css": "/this-is-nate/static/css/2.383c0125.chunk.css",
@@ -12,12 +12,12 @@
     "static/js/3.2f8571fd.chunk.js.map": "/this-is-nate/static/js/3.2f8571fd.chunk.js.map",
     "index.html": "/this-is-nate/index.html",
     "static/css/2.383c0125.chunk.css.map": "/this-is-nate/static/css/2.383c0125.chunk.css.map",
-    "static/css/main.8825a190.chunk.css.map": "/this-is-nate/static/css/main.8825a190.chunk.css.map",
+    "static/css/main.7a3bbd84.chunk.css.map": "/this-is-nate/static/css/main.7a3bbd84.chunk.css.map",
     "static/js/2.b0d21f4d.chunk.js.LICENSE.txt": "/this-is-nate/static/js/2.b0d21f4d.chunk.js.LICENSE.txt",
+    "static/media/FaraVisualExample.f8b44237.png": "/this-is-nate/static/media/FaraVisualExample.f8b44237.png",
     "static/media/National_Parks.f1edceaa.PNG": "/this-is-nate/static/media/National_Parks.f1edceaa.PNG",
     "static/media/ScreenshotTripleX.109de25e.PNG": "/this-is-nate/static/media/ScreenshotTripleX.109de25e.PNG",
     "static/media/coder.541f8179.svg": "/this-is-nate/static/media/coder.541f8179.svg",
-    "static/media/hw_quiz_example.35a666dd.PNG": "/this-is-nate/static/media/hw_quiz_example.35a666dd.PNG",
     "static/media/index.css": "/this-is-nate/static/media/mainbackground.c536cbc8.jpg",
     "static/media/scrypts.7de757cc.PNG": "/this-is-nate/static/media/scrypts.7de757cc.PNG",
     "static/media/weather_screenshot.8088fe7d.PNG": "/this-is-nate/static/media/weather_screenshot.8088fe7d.PNG"
@@ -26,7 +26,7 @@
     "static/js/runtime-main.fe1f0ebb.js",
     "static/css/2.383c0125.chunk.css",
     "static/js/2.b0d21f4d.chunk.js",
-    "static/css/main.8825a190.chunk.css",
-    "static/js/main.2594b57e.chunk.js"
+    "static/css/main.7a3bbd84.chunk.css",
+    "static/js/main.c5e4b4f5.chunk.js"
   ]
 }
