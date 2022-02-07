@@ -14,7 +14,7 @@
 
 ## Overview
 
-This is my current portfolio. It was a ton of fun to navigate the challenges of react, and learning different frameworks. It was also very beneficial to do some styling myself via CSS to get it to look just how I wanted. 
+This is my current portfolio. It was a ton of fun to navigate the challenges of react, and learning different frameworks. It was also very beneficial to do some styling myself via CSS to get it to look just how I wanted.
 
 ## Tech
 
