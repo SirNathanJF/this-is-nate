@@ -26,7 +26,7 @@ export const Wrapper = styled.section`
       flex-flow: row-reverse nowrap;
 
       img {
-        margin-left: 50px;
+        margin: 15px, 0, 15px, 50px;
       }
     }
 
@@ -36,6 +36,7 @@ export const Wrapper = styled.section`
   }
 
   img {
+    border-radius: 10px;
     margin: 8px 0 15px;
   }
 
@@ -50,11 +51,13 @@ export const Wrapper = styled.section`
   }
 
   .hobbies {
+    color: #ffffff;
     padding-left: 18px;
     margin: 0 0 16px;
   }
 
   figure {
+    color: #90caf9;
     border-left: 3px solid #ffffff;
     padding-left: 15px;
 
@@ -64,6 +67,7 @@ export const Wrapper = styled.section`
   }
 
   .icons {
+    color: #90caf9;
     align-items: center;
     display: flex;
     flex-direction: row;
@@ -72,8 +76,8 @@ export const Wrapper = styled.section`
     width: 100%;
 
     svg {
-      height: 25px;
-      width: 25px;
+      height: 50px;
+      width: 50px;
     }
   }
 `;

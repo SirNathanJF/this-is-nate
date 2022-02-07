@@ -2,13 +2,7 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.header`
-  background-image: linear-gradient(
-    to right,
-    #2b5876 0%,
-    #4e4376 51%,
-    #2b5876 100%
-  );
-  background: #2b5876;
+  border-bottom: 1px solid rgba(194, 224, 255, 0.8);
   display: flex;
   flex-direction: column;
   padding: 20px 20px 15px;
@@ -19,7 +13,6 @@ export const Wrapper = styled.header`
   }
 
   h2 {
-    color: #ffffff;
     cursor: pointer;
     text-align: center;
   }
@@ -47,14 +40,19 @@ export const Wrapper = styled.header`
         background: none;
         border: none;
         border-bottom: 1px solid transparent;
-        color: #ffffff;
+        color: #b2bac2;
         cursor: pointer;
         margin: 0;
         padding: 0;
         text-decoration: none;
+        transition: color 0.2s ease;
 
         &.active {
           border-bottom: 1px solid #ffffff;
+          color: #ffffff;
+        }
+        &:hover {
+          color: #ffffff;
         }
       }
     }

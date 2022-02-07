@@ -3,8 +3,8 @@ import styled from "styled-components";
 
 export const Wrapper = styled.div`
   align-items: center;
-  background: #ffffff;
-  border-radius: 5px;
+  background: #1a2027;
+  border-radius: 10px;
   box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px,
     rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px;
   display: flex;
@@ -18,20 +18,21 @@ export const Wrapper = styled.div`
   }
 
   h2 {
-    color: #555555;
     margin: 15px 0;
     padding: 0 15px;
+    text-align: left;
+    width: 100%;
   }
 
   p {
-    color: #777777;
-    padding: 0 10px;
+    padding: 0 15px;
     margin: 0;
   }
 
   a {
     align-items: center;
     align-self: flex-end;
+    color: #90caf9;
     display: flex;
     margin: 15px 0;
     padding: 0 10px;
@@ -39,6 +40,10 @@ export const Wrapper = styled.div`
 
     svg {
       margin-right: 3px;
+    }
+
+    &:hover{
+      color: #ffffff;
     }
   }
 `;

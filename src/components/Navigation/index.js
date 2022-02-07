@@ -30,7 +30,7 @@ function Navigation({ currentPage, handlePageChange }) {
         </li>
         <li>
           <a
-            href="https://drive.google.com/file/d/1Av5ugd107ZcQdADC0Jh7jf3MvcEtM5G67aXuvJQ0ZSk/view?usp=sharing"
+            href="https://drive.google.com/file/d/1KoXk_cldRrMcJQxdgn5SK9qlKjHy0kJ4/view?usp=sharing"
             target="_blank"
             rel="noreferrer noopener"
           >
