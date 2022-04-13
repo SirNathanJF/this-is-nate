@@ -12,7 +12,7 @@ import {
 import { DiJavascript1, DiReact, DiNodejs, DiMongodb } from "react-icons/di";
 import GitHubCalendar from "react-github-calendar";
 // Relative imports.
-import Headshot from "../../assets/headshot.jpg";
+import Headshot from "../../Assets/headshot.jpg";
 import { Wrapper } from "./styles";
 
 const colourTheme = {

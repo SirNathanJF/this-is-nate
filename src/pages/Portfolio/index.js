@@ -1,12 +1,12 @@
 // Node modules.
 import React from "react";
 // Relative imports.
-import Fara from "../../assets/FaraVisualExample.png";
+import Fara from "../../Assets/FaraVisualExample.png";
 import Project from "../../components/Project";
-import Scrypts from "../../assets/scrypts.png";
-import Trip from "../../assets/National_Parks.png";
-import TripleX from "../../assets/ScreenshotTripleX.png";
-import Weather from "../../assets/weather_screenshot.png";
+import Scrypts from "../../Assets/scrypts.png";
+import Trip from "../../Assets/National_Parks.png";
+import TripleX from "../../Assets/ScreenshotTripleX.png";
+import Weather from "../../Assets/weather_screenshot.png";
 import { Wrapper } from "./styles";
 
 export default function Portfolio() {

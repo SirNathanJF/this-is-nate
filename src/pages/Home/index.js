@@ -2,7 +2,7 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
 // Relative imports.
-import coder from "../../assets/coder.svg";
+import coder from "../../Assets/coder.svg";
 import { Wrapper } from "./styles";
 // Function for typewriter effect.
 export default function Home() {
